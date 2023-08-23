@@ -19,3 +19,6 @@ jobs:
       - name: Build debug version
         run: |
           swift build
+      - name: Test debug version
+        run: |
+          swift test
